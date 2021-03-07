@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white
+}
+.container{
+    background-color: rgb(97, 93, 93);
+    width: 591px;
+    height: 600px;
+    margin: 0px 300px;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background-color: white;
+    height: 50px;
+    width: 500px;
+    margin: 10px  20px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+    align-content: center;
+}
+.header>h1{
+    text-align: center;
+}
+.message_container{
+    background-color: green;
+    width: 500px;
+    height: 500px;
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.message_view{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+ 
+}
+.sender{
+    background-color: black;
+    width: 500px;
+    height: 10vh;
+}
+#message{
+    width: 400px;
+    height: 40px;
+    margin: 10px 0px;
+}
+#send_btn{
+    background-color: rgb(40, 230, 151);
+    width: 80px;
+    height: 40px;
+    margin:10px 0px; 
+    font-style: normal; 
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: black;
+    font-size: 12px;
+    border: 0;
+    outline: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#send_btn:hover{
+    background-color: rgb(68, 66, 66);
+    color: white;
+}
